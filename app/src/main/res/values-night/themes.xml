@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema base claro -->
+    <style name="Base.Theme.YouTube" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Fundo branco -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+
+        <!-- Cores principais -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/dark_gray</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Superfícies -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Texto -->
+        <item name="colorOnBackground">@color/black</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">16sp</item>
+
+        <!-- Botão -->
+        <item name="materialButtonStyle">@style/YouTubeButton</item>
+    </style>
+
+    <!-- Tema claro -->
+    <style name="Theme.YouTube" parent="Base.Theme.YouTube" />
+
+    <!-- Tema base escuro -->
+    <style name="Base.Theme.YouTube.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Fundo preto -->
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:colorBackground">@color/black</item>
+
+        <!-- Cores principais -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/light_gray</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Superfícies -->
+        <item name="colorSurface">@color/black</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- Texto -->
+        <item name="colorOnBackground">@color/white</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">16sp</item>
+
+        <!-- Botão -->
+        <item name="materialButtonStyle">@style/YouTubeButton.Dark</item>
+    </style>
+
+    <!-- Tema escuro -->
+    <style name="Theme.YouTube.Dark" parent="Base.Theme.YouTube.Dark" />
+
+    <!-- Botão claro -->
+    <style name="YouTubeButton" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+
+    <!-- Botão escuro -->
+    <style name="YouTubeButton.Dark" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+
+    <!-- Título -->
+    <style name="YouTubeTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Título escuro -->
+    <style name="YouTubeTitle.Dark" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Subtítulo -->
+    <style name="YouTubeSubtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Subtítulo escuro -->
+    <style name="YouTubeSubtitle.Dark" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

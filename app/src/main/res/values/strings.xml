@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">YouTubeSearches</string>
+
+    <!-- URL base da busca no YouTube -->
+    <string name="searchURL">https://www.youtube.com/results?search_query=</string>
+
+    <!-- Textos de compartilhamento -->
+    <string name="shareSubject">Pesquisa do YouTube que pode lhe interessar</string>
+    <string name="shareMessage">Confira os resultados desta pesquisa no YouTube: %s</string>
+    <string name="shareSearch">Compartilhar pesquisa:</string>
+
+    <!-- Mensagem de confirmação -->
+    <string name="confirmMessage">Deseja remover: %s</string>
+
+    <!-- Itens do menu de contexto -->
+    <string-array name="dialog_itens">
+        <item>Compartilhar</item>
+        <item>Editar</item>
+        <item>Excluir</item>
+    </string-array>
+</resources>
