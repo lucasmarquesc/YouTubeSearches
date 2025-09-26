@@ -115,7 +115,6 @@ public class MainActivity extends AppCompatActivity {
                             case 1:
                                 edtTag.setText(tag);
                                 edtConsulta.setText(searchPreferences.getSearch(tag));
-                                searchPreferences.removeSearch(tag);
                                 tagEdicao = tag;
                                 break;
                             case 2:
